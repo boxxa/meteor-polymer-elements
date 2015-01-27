@@ -1,7 +1,7 @@
 Package.describe({
   name: 'boxxa:polymer-elements',
   version: '0.5.4',
-  summary: 'Adds Polymers Elements to Meteor',
+  summary: 'Adds Polymer 0.5.4 Elements to Meteor',
   git: 'https://github.com/boxxa/meteor-polymer-elements.git',
   documentation: 'README.md'
 });
