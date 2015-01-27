@@ -10,7 +10,7 @@ Package.onUse(function(api) {
     api.use('boxxa:polymer@0.5.4');
     api.use('underscore');
     api.versionsFrom('METEOR@0.9.0');
-	api.addFiles('boxxa/polymer-elements.js', 'server');
+	api.addFiles('boxxa:polymer-elements.js', 'server');
 });
 
 Npm.depends({
