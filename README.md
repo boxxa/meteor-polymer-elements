@@ -1,8 +1,7 @@
 #Meteor-Polymer-Elements
-The version [ecwyne:polymer](http://github.com/ecwyne/meteor-polymer-elements) hasn't been updated so forked it and am keeping the version updated as Polymer updates theirs so I would suggest rolling your own bower and package version for anything in production as this will stay current with Polymer. I am keeping this package version consistent with polymer. See below to install Polymer versions specific to your needs.
+The version [ecwyne:polymer-elements](http://github.com/ecwyne/meteor-polymer-elements) hasn't been updated so forked it and am keeping the version updated as Polymer updates theirs so I would suggest rolling your own bower and package version for anything in production as this will stay current with Polymer. I am keeping this package version consistent with polymer. See below to install Polymer versions specific to your needs.
 
-
-Same as the original, this package adds the base functionality of Polymer. If you want to include [core-elements and paper-elements](http://www.polymer-project.org/docs/elements/) simply run below as I keep both in sync or copy your own into public folder for bower_components.
+Same as the original, this package adds the elements functionality of Polymer.
 
 ##How to Install
 

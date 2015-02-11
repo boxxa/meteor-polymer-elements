@@ -23,5 +23,7 @@ _.forEach(bowerCommands, function (command) {
 	if (!_.contains(localCache, 'Polymer/core-elements#0.5.4')){
 		console.log('installing polymer-elements');
 		Bower.install(['Polymer/core-elements#0.5.4', 'Polymer/paper-elements'], {save: true}, {directory: dir});
-	}
+	} else {
+        console.log("Polymer-elements exist already. To reinitialize, remove bower_components from your public/ folder");
+    }
 }
