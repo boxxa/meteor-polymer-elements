@@ -20,9 +20,9 @@ _.forEach(bowerCommands, function (command) {
 
 	var dir = path.join(path.relative(process.cwd(), process.env.PWD), 'public/bower_components');
 	var localCache = _.values(Bower.list(null, {offline: true, directory: dir}).pkgMeta.dependencies);
-	if (!_.contains(localCache, 'Polymer/core-elements#0.5.4')){
+	if (!_.contains(localCache, 'Polymer/core-elements#0.5.5')){
 		console.log('installing polymer-elements');
-		Bower.install(['Polymer/core-elements#0.5.4', 'Polymer/paper-elements'], {save: true}, {directory: dir});
+		Bower.install(['Polymer/core-elements#0.5.5', 'Polymer/paper-elements'], {save: true}, {directory: dir});
 	} else {
         console.log("Polymer-elements exist already. To reinitialize, remove bower_components from your public/ folder");
     }
