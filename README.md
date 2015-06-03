@@ -1,5 +1,7 @@
 #Meteor-Polymer-Elements
-Polymer version 1.0.0
+Polymer version 0.5.5
+
+#This package will not work with Polymer Version 1.0.0. Use [boxxa:polymer-paper](https://github.com/boxxa/meteor-polymer-paper)
 
 The version [ecwyne:polymer-elements](http://github.com/ecwyne/meteor-polymer-elements) hasn't been updated so forked it and am keeping the version updated as Polymer updates theirs so I would suggest rolling your own bower and package version for anything in production as this will stay current with Polymer. I am keeping this package version consistent with polymer. See below to install Polymer versions specific to your needs.
 
